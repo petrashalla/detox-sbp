@@ -703,7 +703,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    formWrapper.addEventListener('click', function(e) {
+    formWrapper?.addEventListener('click', function(e) {
         if (e.target.classList.contains('add-drink-btn')) {
             if (drinkCount < maxDrinks) {
                 const currentBlock = e.target.closest('.alcotest__form-block');
